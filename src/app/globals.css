@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: #151515;
+  --background: #ffffff;
+  --dark-blue: #043d60;
+}
+
+body, html {
+  height: 100%;
+  color: var(--foreground-rgb);
+  background: var(--background);
+}
+
+._text-blue {
+  color: var(--dark-blue)
+}
