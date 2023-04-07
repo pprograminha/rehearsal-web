@@ -6,14 +6,30 @@
   --foreground-rgb: #151515;
   --background: #ffffff;
   --dark-blue: #043d60;
+  --light-blue: #1c6695; 
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--background);
+}
+
+*::-webkit-scrollbar-thumb {
+  width: 7px;
+  border: 1px solid  var(--background);
+  border-radius: 50rem;
+  background-color: var(--dark-blue);
 }
 
 body, html {
   height: 100%;
   color: var(--foreground-rgb);
-  background: var(--background);
+  background-color: var(--background);
 }
 
-._text-blue {
+._text-dark-blue {
   color: var(--dark-blue)
+}
+._text-light-blue {
+  color: var(--light-blue)
 }

@@ -11,7 +11,11 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" />
         <title>CCB - Congragação Cristã no Brasil</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <div id="next" className='max-w-6xl mx-auto px-4'>
+          {children}  
+        </div>
+      </body>
     </html>
   )
 }
